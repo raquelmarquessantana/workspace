@@ -9,4 +9,9 @@ public class Balao {
     String porte;
     int capacidadePessoas;
 
+    public  String voar(Combustivel fogo){
+        return "voando com "+ fogo;
+
+    }
+
 }
