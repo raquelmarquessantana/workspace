@@ -9,8 +9,8 @@ public class Balao {
     String porte;
     int capacidadePessoas;
 
-    public  String voar(Combustivel fogo){
-        return "voando com "+ fogo;
+    public  String voar(Combustivel gasPropano){
+        return "voando com "+ gasPropano;
 
     }
 
