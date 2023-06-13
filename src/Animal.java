@@ -1,13 +1,13 @@
 public class Animal {
-    // Atributos
+    //Atributos
     String especie;
     String porte;
     int idade;
     String raca;
-    String corPele;
+    String corPelo;
     String corOlhoDireito;
     String nome;
-    // métodos
+    // Métodos
     public void comer(){
         System.out.println("Animal comeu");
     }
