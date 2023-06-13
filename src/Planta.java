@@ -4,8 +4,6 @@ public class Planta {
 
 
     }
-    Planta(Semente semente){
 
 
-    }
 }
