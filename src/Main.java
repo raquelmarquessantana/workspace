@@ -33,6 +33,17 @@ public class Main {
 
         rainha.comer();
 
+        // gerador de numero
+        int numero = (int) Math.ceil(Math.random() * 60);
+        System.out.println(numero);
+
+        Produto pestisco = new Produto();
+        Produto racao = new Produto(1);
+        Produto remedio = new Produto(2, "vermifugo");
+        Produto brinquedo = new Produto ("Bolinha");
+
+
+
 
 
     }

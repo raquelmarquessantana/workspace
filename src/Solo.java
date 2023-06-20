@@ -1,13 +1,15 @@
 public class Solo {
     // Atributos
+
+public class Solo {
+
     boolean fertil;
-    String tipoSolo;
-    String localDosolo;
+    String tiposolo;
+    String LocalDoSolo;
     String estado;
 
-    // Método
     public Planta gerarPlanta(semente s1){
-        Planta p1 = new Planta();
+        Planta p1 = new Planta(s1);
         return p1;
     }
 }
